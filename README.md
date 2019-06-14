@@ -7,12 +7,16 @@ Check out our [documentation][documentation] for sample code, video tutorials, a
 ## Gateway Developer Tools Framework
 The Android Mobile SDK consists of these frameworks:
 
-- [APIM-Gateway-Developer-Tools] : https://github.com/CAAPIM/APIM-Gateway-Developer-Tools Messaging and pub/sub services allowing users to message and send data to each other.
 - [APIM-Gateway-Developer-Tools](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools)
-- **MASFoundation** - Core services to handle user authentication, device and app registration, requests and local storage of certificates, keys, and token credentials for accessing protected APIs.
-- **MASIdentityManagement** - Identity management services to securely access users and groups from enterprise identity providers.
-- **MASStorage** - Storage services for private local and cloud storage.
-- **MASUI** - Resources to implement a user login dialog, Social Login, One-Time Password, and Proximity Login (QR code and BLE).
+- [gateway-developer-plugin](https://github.com/CAAPIM/gateway-developer-plugin)
+- [gateway-developer-example](https://github.com/CAAPIM/gateway-developer-example)
+- [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
+- [gateway-export-plugin](https://github.com/CAAPIM/gateway-export-plugin)
+- [example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)
+- [gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)
+- [gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)
+- [gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)
+- [template-policies](https://github.com/CAAPIM/template-policies)
 
 For more information about our mobile products see the [developer website][mas.ca.com].
 
@@ -53,12 +57,11 @@ The compiled release binaries can be found here: [Releases][Releases]
 ## Sample Apps
 **All sample apps have moved to GITHub as of 1.6.00 release. Links will redirect to the latest released versions.**
 
-- [Sample-App-MAS-Android-Access-API-Geolocation-And-OTP](https://github.com/CAAPIM/Sample-App-MAS-Android-Access-API-Geolocation-And-OTP)
-- [Sample-App-MAS-Android-Fingerprint-Sessions-Lock](https://github.com/CAAPIM/Sample-App-MAS-Android-Fingerprint-Sessions-Lock)
-- [Sample-App-MAS-Android-Login-User-Authentication-And-Authorization](https://github.com/CAAPIM/Sample-App-MAS-Android-Login-User-Authentication-And-Authorization)
-- [Sample-App-MAS-Android-Messaging](https://github.com/CAAPIM/Sample-App-MAS-Android-Messaging)
-- [Sample-App-MAS-Android-Secure-Cloud-And-Local-Storage](https://github.com/CAAPIM/Sample-App-MAS-Android-Secure-Cloud-And-Local-Storage)
-- [Sample-App-MAS-Android-User-Group-Management](https://github.com/CAAPIM/Sample-App-MAS-Android-User-Group-Management)
+- [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
+- [gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)
+- [gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)
+- [gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)
+- [template-policies](https://github.com/CAAPIM/template-policies)
 
 ## Communication
 - *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
