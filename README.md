@@ -60,6 +60,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 - [gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)
 - [gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)
 - [template-policies](https://github.com/CAAPIM/template-policies)
+- [environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)
 
 ## Communication
 - *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
