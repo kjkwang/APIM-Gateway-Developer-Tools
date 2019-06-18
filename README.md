@@ -11,7 +11,6 @@ Gateway Developer Tools consist of these frameworks:
 - [gateway-developer-plugin](https://github.com/CAAPIM/gateway-developer-plugin)
 - [gateway-developer-example](https://github.com/CAAPIM/gateway-developer-example)
 - [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
-- [gateway-export-plugin](https://github.com/CAAPIM/gateway-export-plugin)
 - [example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)
 - [gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)
 - [gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)
