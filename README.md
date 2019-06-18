@@ -8,13 +8,6 @@ Check out our [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-a
 Gateway Developer Tools consist of these frameworks:
 
 - [gateway-developer-plugin](https://github.com/CAAPIM/gateway-developer-plugin)
-- [gateway-developer-example](https://github.com/CAAPIM/gateway-developer-example)
-- [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
-- [example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)
-- [gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)
-- [gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)
-- [gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)
-- [template-policies](https://github.com/CAAPIM/template-policies)
 
 For more information about our Gateway Developer Tool visit [developer website](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode).
 
