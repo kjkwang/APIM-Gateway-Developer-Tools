@@ -2,7 +2,7 @@
 Get started with APIM Gateway Developer Tools and CI/CD Reference Implementations
 
 ## Get Started
-Check out our [documentation][documentation] for sample code, video tutorials, and more.  
+Check out our [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode) for sample code, video tutorials, and more.  
 
 ## Gateway Developer Tools Framework
 The Android Mobile SDK consists of these frameworks:
