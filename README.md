@@ -30,18 +30,30 @@ For more information about our Gateway Developer Tool visit [developer website](
 
 ## Installation
 Edit your build.gradle file and add below dependency:
-```gradle
-    dependencies {
-        implementation 'com.ca:mas-foundation:1.8.00'
 
-        implementation 'com.ca:mas-connecta:1.8.00' // (Optional) Only required when using mas connecta
-        implementation 'com.ca:mas-storage:1.8.00' // (Optional) Only required when using mas storage
-        implementation 'com.ca:mas-identity-management:1.8.00' // (Optional) Only required when using mas identity management
-        implementation 'com.ca:masui:1.8.00' // (Optional) Only required when using MASUI Template. The MAS UI library provides sample user interfaces for Login, OTP, Social Login, and Enterprise Browser.
+```groovy
+plugins {
+    id "com.ca.apim.gateway.gateway-developer-plugin" version "0.8.+"
+    id "com.ca.apim.gateway.gateway-export-plugin" version "0.8.+"
+}
 
-        implementation 'org.bouncycastle:bcpkix-jdk15on:1.55' // (Optional) Only required when you want to support Android 4.1.x
-    }
+repositories {
+    // This is needed in order to get dependencies for the environment 
+    // creator application that is bundled in the gw7 file.
+    mavenCentral()
+}
+
+// The Gateway Export Config is needed by the gateway-export plugin in order to export from a gateway
+GatewayExportConfig {
+    folderPath = '/my-solution-folder'
+}
+
+// The Gateway Connection Config is required if setting mentioned in main [build.gradle](https://github.com/ca-api-gateway-examples/gateway-developer-example/blob/master/build.gradle) is not applicable to this folder.
+GatewayConnection {
+    url = 'https://<gateway-host>:8443/restman'
+}
 ```
+
 ## SDK Releases
 The compiled release binaries can be found here: [Releases][Releases]
 
