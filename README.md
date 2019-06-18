@@ -7,7 +7,6 @@ Check out our [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-a
 ## Gateway Developer Tools Framework
 Gateway Developer Tools consist of these frameworks:
 
-- [APIM-Gateway-Developer-Tools](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools)
 - [gateway-developer-plugin](https://github.com/CAAPIM/gateway-developer-plugin)
 - [gateway-developer-example](https://github.com/CAAPIM/gateway-developer-example)
 - [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
