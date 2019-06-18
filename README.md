@@ -22,20 +22,13 @@ For more information about our mobile products see the [developer website][mas.c
 
 ## Features
 
-* **Secure API Calls** - Protect APIs with Mutual TLS and control API access on application, user and device level.
-* **Authentication** - Implement authentication with username/password, Facebook, Google, Twitter sign-in.
-* **Second Factor Auth** - Secure critical APIs with One Time Password.
-* **Single Sign-On** - Share user credentials between your apps.
-* **Enterprise Browser** - Extend the single sign-on session to web applications.
-* **Proximity Login** - Transfer the user session between devices and platforms.
-* **Fingerprint Sessions Lock** - Support phone unlocking using fingerprint recognition.
-* **Messaging** - Create collaborative apps with secure, reliable messaging.
-* **User Management** - Seamlessly integrate your app with an existing enterprise user directory.
-* **Private Cloud Storage** - Store data in a private cloud and access it from all of your devices.
-* **Pub/Sub** - Create real-time, IoT-friendly apps using an MQTT-based Pub/Sub infrastructure.
-* **Adhoc Groups** - Create groups on-the-fly for collaborative apps.
-* **Local Storage** - Store data on devices with enterprise-grade encryption.
-* **UI Template** - Provides resources to implement a user login dialog, Social Login, One-Time Password, and Proximity Login (QR code and BLE), to save time during UI creation and app prototyping.
+* **gateway-developer-plugin** - Reads configuration files, converts them to the Gateway Restman bundle format and builds the GW7 package.	
+
+* **gateway-export-plugin** - Exports current configurations from an existing Gateway, converts them into the plugin format, and stores it in the local directory structure, allowing for pushing to a VCS system.	
+
+* **gateway-import-plugin** - Imports and installs generated solutions to an existing running Gateway. Used primarily for transitioning Gateways from an appliance to a container form factor.	
+
+* **environment-creator application** - Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.
 
 ## Installation
 Edit your build.gradle file and add below dependency:
