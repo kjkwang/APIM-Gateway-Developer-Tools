@@ -83,13 +83,12 @@ Copyright (c) 2017 CA. All rights reserved.
 This software may be modified and distributed under the terms
 of the MIT license. See the [LICENSE][license-link] file for details.
 
-[mag]: https://docops.ca.com/mag
 [mas.ca.com]: http://mas.ca.com/
 [docs]: http://mas.ca.com/docs/
 [blog]: http://mas.ca.com/blog/
 [get-started]: http://mas.ca.com/get-started
 [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
-[issues]: https://github.com/CAAPIM/Android-MAS-SDK/issues
+[issues]: https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/issues
 [releases]: ../../releases
 [contributing]: /CONTRIBUTING.md
 [license-link]: /LICENSE
