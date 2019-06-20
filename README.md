@@ -71,7 +71,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
 
 ## Documentation
-For more documentation including API references, go to our [main website][docs].
+For more documentation including API references, go to our [DocOps](https://docops.ca.com/gateway) site. 
 
 ## License
 Copyright (c) 2017 CA. All rights reserved.
