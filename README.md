@@ -53,11 +53,11 @@ GatewayConnection {
 }
 ```
 
-## SDK Releases
+## Releases
 The compiled release binaries can be found here: [Releases][Releases]
 
 ## Sample Apps
-**All sample apps have moved to GITHub as of 1.6.00 release. Links will redirect to the latest released versions.**
+**Links will redirect to the latest released versions.**
 
 - [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
 - [gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)
@@ -83,14 +83,9 @@ Copyright (c) 2017 CA. All rights reserved.
 This software may be modified and distributed under the terms
 of the MIT license. See the [LICENSE][license-link] file for details.
 
-[mas.ca.com]: http://mas.ca.com/
-[docs]: http://mas.ca.com/docs/
-[blog]: http://mas.ca.com/blog/
-[get-started]: http://mas.ca.com/get-started
+
 [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
 [issues]: https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/issues
 [releases]: ../../releases
 [contributing]: /CONTRIBUTING.md
 [license-link]: /LICENSE
-[video]: https://www.ca.com/us/developers/mas/videos.html
-[documentation]: https://www.ca.com/us/developers/mas/docs.html
