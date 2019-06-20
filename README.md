@@ -1,8 +1,12 @@
-# APIM-Gateway-Developer-Tools
-Get started with APIM Gateway Developer Tools and CI/CD Reference Implementations
+# Getting Started with APIM-Gateway-Developer-Tools
+This GitHub repository contains the required CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow that optimizes both the design and run times of the Container Gateway life cycle in ephemeral mode. 
 
-## Get Started
-Check out our [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode) for sample code, video tutorials, and more.  
+Design time refers to activities pertaining to the design or development activities of Gateway policy language while run time refers to the activities pertaining to delivery, integration, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it.
+
+## About the Beta Release
+The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your feedback. 
+
+If you want to learn more about the benefits or an overview of the Ephemeral Gateway, check out our DocOps [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode).
 
 ## Gateway Developer Tools Framework
 Gateway Developer Tools consist of these frameworks:
