@@ -28,7 +28,7 @@ For more information about our Gateway Developer Tool visit [developer website](
 * **environment-creator application** - Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.
 
 ## Installation
-Edit your build.gradle file and add below dependency:
+Edit your build.gradle file and add the following dependency:
 
 ```groovy
 plugins {
@@ -75,7 +75,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
 
 ## Documentation
-For more documentation including API references, go to our [DocOps](https://docops.ca.com/gateway) site. 
+For more documentation on the CA API Gateway, visit our [DocOps](https://docops.ca.com/gateway) site. 
 
 ## License
 Copyright (c) 2017 CA. All rights reserved.
