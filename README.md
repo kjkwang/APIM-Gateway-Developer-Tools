@@ -78,7 +78,7 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 For more documentation on the CA API Gateway, visit our [DocOps](https://docops.ca.com/gateway) site. 
 
 ## License
-Copyright (c) 2017 CA. All rights reserved.
+Copyright (c) 2019 CA. All rights reserved.
 
 This software may be modified and distributed under the terms
 of the MIT license. See the [LICENSE][license-link] file for details.
