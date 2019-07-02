@@ -67,9 +67,9 @@ The compiled release binaries can be found here: [Releases][Releases]
 - [environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)
 
 ## Communication
-- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
-- *Find a bug?*, open an [issue][issues] with the steps to reproduce it.
-- *Request a feature or have an idea?*, open an [issue][issues].
+- *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
+- *Find a bug?* Open an [issue][issues] with the steps to reproduce it.
+- *Want to request a feature or have an idea?* Open an [issue][issues] to tell us.
 
 ## How You Can Contribute
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
