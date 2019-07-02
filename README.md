@@ -67,7 +67,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 - [environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)
 
 ## Communication
-- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
+- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'caapim_gw')
 - *Find a bug?*, open an [issue][issues] with the steps to reproduce it.
 - *Request a feature or have an idea?*, open an [issue][issues].
 
@@ -84,7 +84,7 @@ This software may be modified and distributed under the terms
 of the MIT license. See the [LICENSE][license-link] file for details.
 
 
-[StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
+[StackOverflow]: http://stackoverflow.com/questions/tagged/caapim_gw
 [issues]: https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/issues
 [releases]: ../../releases
 [contributing]: /CONTRIBUTING.md
