@@ -35,19 +35,19 @@ As we push forward to providing the best product and high Time-to-Value with the
 * The following Gateway entities have been tested for the Gateway Developer Plugin:
   * Cassandra Connections
   * Encapsulated Assertions
- 
-Identity Providers
-JDBC Connections
-JMS Destinations
-Listen Ports
-Policy Backed Services
-Private Keys
-Scheduled Tasks
-Services
-Static Properties
-Stored Passwords
-Trusted Certificates
-
+  * Identity Providers
+  * JDBC Connections
+  * JMS Destinations
+  * Listen Ports
+  * Policy Backed Services
+  * Private Keys
+  * Scheduled Tasks
+  * Services
+  * Static Properties
+  * Stored Passwords
+  * Trusted Certificates
+  All other entities shall be tested in gradual phases, post-beta. 
+* Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start). 
 
 ## Installation
 Edit your build.gradle file and add the following dependency:
