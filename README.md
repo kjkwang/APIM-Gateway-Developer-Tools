@@ -3,6 +3,18 @@ This GitHub repository contains the required CA API Gateway developer tools and 
 
 Design time refers to activities pertaining to the design or development activities of Gateway policy language while run time refers to the activities pertaining to delivery, integration, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it.
 
+#### Table of Contents
+* [About the Beta Release](#about-the-beta-release)
+* [Gateway Developer Tools Framework](#gateway-developer-tools-framework)
+* [Features](#features)
+* [Known Limitations](#known-limitations)
+* [Installation](#installation)
+* [Releases](#releases)
+* [Sample Apps](#sample-apps)
+* [Communication](#communication)
+* [How You Can Contribute](#how-you-can-contribute)
+* [License](#licenses)
+
 ## About the Beta Release
 The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your valuable feedback! 
 
