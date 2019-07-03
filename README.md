@@ -8,6 +8,8 @@ The Ephemeral Gateway is a work in progress and the contents of this Git reposit
 
 If you want to learn more about the benefits or an overview of the Ephemeral Gateway, check out our DocOps [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode).
 
+Before diving into the individual developer tools, check out the general Wiki page to learn the basic setup for your Ephemeral Gateway, and a reference architecture. 
+
 ## Gateway Developer Tools Framework
 Gateway Developer Tools consist of these frameworks:
 
