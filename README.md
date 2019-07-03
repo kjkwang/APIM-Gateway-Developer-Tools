@@ -29,6 +29,13 @@ For more information about our Gateway Developer Tool visit [developer website](
 
 * **environment-creator application** - Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.
 
+## Known Limitations
+As we push forward to providing the best product and high Time-to-Value with the Ephemeral Gateway, please be aware of the following limitations for this beta release when testing for your own implementation:
+* Policy Manager access to a Kubernetes Gateway cluster is disabled.
+* The following Gateway entities have been tested for the Gateway Developer Plugin:
+Cassandra Connections|Hello
+
+
 ## Installation
 Edit your build.gradle file and add the following dependency:
 
