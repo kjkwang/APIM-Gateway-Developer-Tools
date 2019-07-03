@@ -33,9 +33,19 @@ For more information about our Gateway Developer Tool visit [developer website](
 As we push forward to providing the best product and high Time-to-Value with the Ephemeral Gateway, please be aware of the following limitations for this beta release when testing for your own implementation:
 * Policy Manager access to a Kubernetes Gateway cluster is disabled.
 * The following Gateway entities have been tested for the Gateway Developer Plugin:
-Cassandra Connections | Hello
-Hello | Hello
-
+ * Cassandra Connections
+ * Encapsulated Assertions
+Identity Providers
+JDBC Connections
+JMS Destinations
+Listen Ports
+Policy Backed Services
+Private Keys
+Scheduled Tasks
+Services
+Static Properties
+Stored Passwords
+Trusted Certificates
 
 
 ## Installation
