@@ -58,7 +58,7 @@ As we push forward to providing the best product and high Time-to-Value with the
 |TIBCO JMS |TIBCO JMS is not supported on a Gateway solution built with the Gateway Developer plugin ||
  
 ## Installation
-Prerequisites
+### Prerequisites for Policy Developers
 1. Have Docker installed.
 2. Have an existing Gateway license
 3. A running Gateway which has a policy to export. As an example for this getting started guide. You can find it at [Getting Started Gateway](https://github.com/J-Lou/getting-started-developer-plugin). To boot up your running Getting Started Gateway, instructions are provided below.
@@ -71,7 +71,8 @@ Prerequisites
     ```
     **Note**: The IP address of this Gateway is https://localhost:844
 
-Installation Guides - 
+### Installation Wiki Guides 
+
 1) [Single Module Installation Guide](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/1.-Getting-Started-with-the-Gateway-Developer-Repository) 
 
 2) [Multi Module Installation Guide](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki/1.-Getting-Started-with-the-Multiple-Module-Gateway-Developer-Repository)
