@@ -30,8 +30,8 @@ For a high-level overview of the CI/CD workflow and its core components, we high
 | Requirement | Supported/Tested in Beta Version |
 | --- | --- |
 | Gateway Form Factor(s) | Container Gateway Version 9.3 and newer |
-| Cloud Platform(s) | Google Kubernetes Engine |
-|Third Party Software/Cloud Native Apps | GitHub, Git, Golang, Jenkins, Weaveflux, Helm, Docker, Nexus |
+| Cloud Platform(s) | Google Kubernetes Engine Version 1.15 |
+|Third Party Software/Cloud Native Apps | GitHub, Git, Golang, Jenkins, Weaveflux, Helm, Docker, Nexus - all latest versions as of June 2019 |
 
 If you want to learn more about the benefits or an overview of the Ephemeral Gateway, check out our DocOps [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode).
 
