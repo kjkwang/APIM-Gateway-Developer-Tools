@@ -35,8 +35,6 @@ For a high-level overview of the CI/CD workflow and its core components, we high
 
 If you want to learn more about the benefits or an overview of the Ephemeral Gateway, check out our DocOps [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode).
 
-Before diving into the individual developer tools, check out the [general Wiki page](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki) to learn the basic setup for your Ephemeral Gateway, and a reference architecture. 
-
 ## Gateway Developer Tools Framework
 Gateway Developer Tools consist of these frameworks:
 
@@ -46,7 +44,7 @@ Gateway Developer Tools consist of these frameworks:
 |[gateway-export-plugin](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/gateway-export-plugin) |Exports current configurations from an existing Gateway, converts them into the plugin format, and stores it in the local directory structure, allowing for pushing to a VCS system.|
 |[gateway-import-plugin](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/gateway-import-plugin)|Imports and installs generated solutions to an existing running Gateway. Used primarily for transitioning Gateways from an appliance to a container form factor.|
 |[environment-creator application](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/environment-creator-application)| Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.|
-
+Before diving into the individual developer tools, check out the [general Wiki page](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki) to learn the basic setup for your Ephemeral Gateway, and a reference architecture. 
 ## Known Limitations
 As we push forward to providing the best product and high Time-to-Value with the Ephemeral Gateway, please be aware of the following limitations for this beta release when testing for your own implementation:
 
