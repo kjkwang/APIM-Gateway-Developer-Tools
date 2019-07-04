@@ -26,7 +26,8 @@ For this first beta release, we've focused on the following features:
 
 ### Applicability and System Requirements
 For a high-level overview of the CI/CD workflow and its core components, we highly recommend that you review the [reference architecture](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Ephemeral-Gateway---Reference-Architecture) of the Ephemeral Gateway in the general Wiki.  
-| Requirement | Supported/Tested in Beta Version
+| Requirement | Supported/Tested in Beta Version |
+| --- | --- |
 | Gateway Form Factor(s) | Container Gateway |
 | Cloud Platform(s) | Google Kubernetes Engine |
 |Third Party Software/Cloud Native Apps | GitHub, Git, Golang, Jenkins, Weaveflux, Helm, Docker, Nexus |
