@@ -51,30 +51,26 @@ As we push forward to providing the best product and high Time-to-Value with the
 * Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start). 
 
 ## Installation
-Edit your build.gradle file and add the following dependency:
+Prerequisites
+1. Have Docker installed.
+2. Have an existing Gateway license
+3. A running Gateway which has a policy to export. As an example for this getting started guide. You can find it at [Getting Started Gateway](https://github.com/J-Lou/getting-started-developer-plugin). To boot up your running Getting Started Gateway, instructions are provided below.
+    1. Open up a terminal in the base directory of the `Getting Started Gateway`.
+    2. Place a license in `docker/`
+    3. Execute the following commands.
+    ```console
+    $ ./gradlew clean build
+    $ docker-compose up --force-recreate
+    ```
+    **Note**: The IP address of this Gateway is https://localhost:844
 
-```groovy
-plugins {
-    id "com.ca.apim.gateway.gateway-developer-plugin" version "0.8.+"
-    id "com.ca.apim.gateway.gateway-export-plugin" version "0.8.+"
-}
+[Single Module Installation Guide](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/1.-Getting-Started-with-the-Gateway-Developer-Repository) 
 
-repositories {
-    // This is needed in order to get dependencies for the environment 
-    // creator application that is bundled in the gw7 file.
-    mavenCentral()
-}
+[Multi Module Installation Guide](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki/1.-Getting-Started-with-the-Multiple-Module-Gateway-Developer-Repository)
 
-// The Gateway Export Config is needed by the gateway-export plugin in order to export from a gateway
-GatewayExportConfig {
-    folderPath = '/my-solution-folder'
-}
+[Ephemeral Gateway Installation Guide](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo/wiki/Setting-up-for-Jenkins-Build)
 
-// The Gateway Connection Config is required if setting mentioned in main [build.gradle](https://github.com/ca-api-gateway-examples/gateway-developer-example/blob/master/build.gradle) is not applicable to this folder.
-GatewayConnection {
-    url = 'https://<gateway-host>:8443/restman'
-}
-```
+[Ephemeral Gateway Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
 
 ## Releases
 The compiled release binaries can be found here: [Releases][Releases]
