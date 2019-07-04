@@ -32,6 +32,9 @@ Gateway Developer Tools consist of these frameworks:
 
 ## Known Limitations
 As we push forward to providing the best product and high Time-to-Value with the Ephemeral Gateway, please be aware of the following limitations for this beta release when testing for your own implementation:
+|Issue|Description|Notes|
+|---|---|---|
+|Policy Manager and Kubernetes| Policy Manager access to a Kubernetes Gateway cluster is disabled.||
 * Policy Manager access to a Kubernetes Gateway cluster is disabled.
 * The following Gateway entities have been tested for the Gateway Developer Plugin:
   * Cassandra Connections
@@ -49,6 +52,7 @@ As we push forward to providing the best product and high Time-to-Value with the
   * Trusted Certificates
   <br>All other entities shall be tested in gradual phases, post-beta.<br> 
 * Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start). 
+* Special characters in context variables -  The export plugin exports special characters in environment values with a backslash in order to escape the character. WeaveWorks' Flux will return an error when trying to parse backslash ("\") in the values.
 
 ## Installation
 Prerequisites
