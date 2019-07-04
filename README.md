@@ -29,7 +29,7 @@ For a high-level overview of the CI/CD workflow and its core components, we high
 
 | Requirement | Supported/Tested in Beta Version |
 | --- | --- |
-| Gateway Form Factor(s) | Container Gateway |
+| Gateway Form Factor(s) | Container Gateway Version 9.3 and newer |
 | Cloud Platform(s) | Google Kubernetes Engine |
 |Third Party Software/Cloud Native Apps | GitHub, Git, Golang, Jenkins, Weaveflux, Helm, Docker, Nexus |
 
