@@ -32,9 +32,10 @@ Gateway Developer Tools consist of these frameworks:
 
 ## Known Limitations
 As we push forward to providing the best product and high Time-to-Value with the Ephemeral Gateway, please be aware of the following limitations for this beta release when testing for your own implementation:
+
 | Issue | Description | Notes |
 | --- | --- | --- |
-| Policy Manager and Kubernetes | Policy Manager access to a Kubernetes Gateway cluster is disabled. | |
+| Policy Manager and Kubernetes | Policy Manager access to a Kubernetes Gateway cluster is disabled. | TBD |
 * Policy Manager access to a Kubernetes Gateway cluster is disabled.
 * The following Gateway entities have been tested for the Gateway Developer Plugin:
   * Cassandra Connections
