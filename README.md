@@ -47,7 +47,7 @@ As we push forward to providing the best product and high Time-to-Value with the
   * Static Properties
   * Stored Passwords
   * Trusted Certificates
-  <br><br>All other entities shall be tested in gradual phases, post-beta. 
+  <br>All other entities shall be tested in gradual phases, post-beta.<br> 
 * Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start). 
 
 ## Installation
