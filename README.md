@@ -10,7 +10,7 @@ Design time refers to activities pertaining to the design or development activit
 * [Known Limitations](#known-limitations)
 * [Installation](#installation)
 * [Releases](#releases)
-* [Sample Apps](#sample-apps)
+* [Reference Implementations](#reference-implementations)
 * [Communication](#communication)
 * [How You Can Contribute](#how-you-can-contribute)
 * [License](#licenses)
