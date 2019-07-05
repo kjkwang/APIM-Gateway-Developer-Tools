@@ -56,8 +56,9 @@ As we push forward to providing the best product and high Time-to-Value with the
 |Spaces in Environment Variable Names | Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start).||
 | Special Charcters in Context Variables | The export plugin exports special characters in environment values with a backslash in order to escape the character. WeaveWorks' Flux returns an error when attempting to parse backslashes (" \ ") in the values.
 |TIBCO JMS |TIBCO JMS is not supported on a Gateway solution built with the Gateway Developer plugin ||
- 
-## Installation
+|Telemetry| The Ephemeral Gateway is not connected to any telemetry services. Gateway customers who are or are planning to enroll in a Portfolio License Agreement (PLA) with CA Technologies, a Broadcom Company can learn more about telemetry requirements [here].(https://docops.ca.com/ca-api-gateway/9-4/en/install-configure-upgrade/product-licensing-and-telemetry)| 
+
+## Installation 
 ### Prerequisites for Policy Developers
 1. Have Docker installed.
 2. Have an existing Gateway license
@@ -81,7 +82,7 @@ As we push forward to providing the best product and high Time-to-Value with the
 * [Multi Module Installation Guide](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki/1.-Getting-Started-with-the-Multiple-Module-Gateway-Developer-Repository)
 
 * [OTK Bundle Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/3.-OTK-Bundle-Installation-Guide)
-g
+
 #### Run Time
 
 * [Getting Started with Run Time](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
