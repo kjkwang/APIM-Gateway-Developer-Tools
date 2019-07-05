@@ -74,13 +74,14 @@ As we push forward to providing the best product and high Time-to-Value with the
 ### Installation Guides on the Wiki
 
 #### Design Time
+* [Sample Gateway Project to Export to GitOps](https://github.com/J-Lou/getting-started-developer-plugin)
 
 * [Single Module Installation Guide](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/1.-Getting-Started-with-the-Gateway-Developer-Repository) 
 
 * [Multi Module Installation Guide](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki/1.-Getting-Started-with-the-Multiple-Module-Gateway-Developer-Repository)
 
 * [OTK Bundle Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/3.-OTK-Bundle-Installation-Guide)
-
+g
 #### Run Time
 
 * [Getting Started with Run Time](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
