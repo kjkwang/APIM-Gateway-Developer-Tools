@@ -49,14 +49,15 @@ Before diving into the individual developer tools, check out the [general Wiki p
 ## Known Limitations
 As we push forward to providing the best product and high Time-to-Value with the Ephemeral Gateway, please be aware of the following limitations for this beta release when testing for your own implementation:
 
-| Issue | Description | Notes |
+| Issue | Description |
 | --- | --- | --- |
-| Policy Manager and Kubernetes | Policy Manager access to a Kubernetes Gateway cluster is disabled. ||
-| Tested Gateway Entities |The following Gateway entities have been tested for the Gateway Developer Plugin: <ul><li>Cassandra Connections</li><li>Encapsulated Assertions</li><li>Identity Providers</li><li>JDBC Connections</li><li>JMS Destinations</li><li>Listen Ports</li><li>Policy Backed Services</li><li>Private Keys</li><li>Scheduled Tasks</li><li>Services</li><li>Static Properties</li><li>Stored Passwords</li><li>Trusted Certificates</li></ul>| All other entities shall be tested in gradual phases, post-beta.|
-|Spaces in Environment Variable Names | Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start).||
+| Policy Manager and Kubernetes | Policy Manager access to a Kubernetes Gateway cluster is disabled. |
+| Tested Gateway Entities |The following Gateway entities have been tested for the Gateway Developer Plugin: <ul><li>Cassandra Connections</li><li>Encapsulated Assertions</li><li>Identity Providers</li><li>JDBC Connections</li><li>JMS Destinations</li><li>Listen Ports</li><li>Policy Backed Services</li><li>Private Keys</li><li>Scheduled Tasks</li><li>Services</li><li>Static Properties</li><li>Stored Passwords</li><li>Trusted Certificates</li></ul>All other entities shall be tested in gradual phases, post-beta.| 
+|Spaces in Environment Variable Names | Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start).|
 | Special Charcters in Context Variables | The export plugin exports special characters in environment values with a backslash in order to escape the character. WeaveWorks' Flux returns an error when attempting to parse backslashes (" \ ") in the values.
-|TIBCO JMS |TIBCO JMS is not supported on a Gateway solution built with the Gateway Developer plugin ||
-|Telemetry| The Ephemeral Gateway is not connected to any telemetry services. Gateway customers who are or are planning to enroll in a Portfolio License Agreement (PLA) with CA Technologies, a Broadcom Company can learn more about telemetry requirements [here].(https://docops.ca.com/ca-api-gateway/9-4/en/install-configure-upgrade/product-licensing-and-telemetry)| 
+|TIBCO JMS |TIBCO JMS is not supported on a Gateway solution built with the Gateway Developer plugin |
+|Telemetry| The Ephemeral Gateway is not connected to any telemetry services. Gateway customers who are or are planning to enroll in a Portfolio License Agreement (PLA) with CA Technologies can learn more about telemetry requirements [here](https://docops.ca.com/ca-api-gateway/9-4/en/install-configure-upgrade/product-licensing-and-telemetry).| 
+
 
 ## Installation 
 ### Prerequisites for Policy Developers
