@@ -91,7 +91,7 @@ g
 ## Releases
 The compiled release binaries can be found here: [Releases][Releases]
 
-## Sample Apps
+## Reference Implementations
 **Links will redirect to the latest released versions.**
 
 - [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
