@@ -51,6 +51,7 @@ As we push forward to providing the best product and high Time-to-Value with the
 
 | Issue | Description |
 | --- | --- |
+| Build Monitoring | The Ephemeral Gateway does not support automatic alerting for failed jobs during the CI/CD workflow.|
 |Hazelcast| Hazelcast has not yet been tested to share states between multiple nodes.|
 | Policy Manager and Kubernetes | Policy Manager access to a Kubernetes Gateway cluster is disabled.|
 |Spaces in Environment Variable Names | Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start).|
