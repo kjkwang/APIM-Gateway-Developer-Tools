@@ -71,7 +71,9 @@ As we push forward to providing the best product and high Time-to-Value with the
     ```
     **Note**: The IP address of this Gateway is https://localhost:844
 
-### Installation Wiki Guides 
+### Installation Guides on the Wiki
+
+#### Design Time
 
 1) [Single Module Installation Guide](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/1.-Getting-Started-with-the-Gateway-Developer-Repository) 
 
@@ -79,9 +81,11 @@ As we push forward to providing the best product and high Time-to-Value with the
 
 3) [OTK Bundle Installation Guide] https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/3.-OTK-Bundle-Installation-Guide
 
-3) [Ephemeral Gateway Installation Guide](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo/wiki/Setting-up-for-Jenkins-Build)
+#### Run Time
 
-4) [Ephemeral Gateway Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
+3) [Setting Up for Jenkins Build](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo/wiki/Setting-up-for-Jenkins-Build)
+
+4) [Getting Started with Runtime](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
 
 ## Releases
 The compiled release binaries can be found here: [Releases][Releases]
