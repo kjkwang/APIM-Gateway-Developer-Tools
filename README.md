@@ -25,7 +25,7 @@ For this first beta release, we've focused on the following features:
 * Integration with industry-standard CI/CD tools such as Google Kubernetes Engine, Weave Flux, Jenkins, and Nexus
 
 ### Applicability and System Requirements
-For a high-level overview of the CI/CD workflow and its core components, we highly recommend that you review the [reference architecture](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Ephemeral-Gateway---Reference-Architecture) of the Ephemeral Gateway in the general Wiki.  
+For a high-level overview of the CI/CD workflow and its core components, we highly recommend that you review the [reference architecture](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Ephemeral-Gateway-Reference-Architecture) of the Ephemeral Gateway in the general Wiki.  
 
 | Requirement | Supported/Tested in Beta Version |
 | --- | --- |
