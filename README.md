@@ -52,7 +52,6 @@ As we push forward to providing the best product and high Time-to-Value with the
 | Issue | Description |
 | --- | --- |
 | Policy Manager and Kubernetes | Policy Manager access to a Kubernetes Gateway cluster is disabled. |
-
 |Spaces in Environment Variable Names | Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start).|
 | Special Charcters in Context Variables | The export plugin exports special characters in environment values with a backslash in order to escape the character. WeaveWorks' Flux returns an error when attempting to parse backslashes (" \ ") in the values.
 |Telemetry| The Ephemeral Gateway is not connected to any telemetry services. Gateway customers who are or are planning to enroll in a Portfolio License Agreement (PLA) with CA Technologies can learn more about telemetry requirements [here](https://docops.ca.com/ca-api-gateway/9-4/en/install-configure-upgrade/product-licensing-and-telemetry).| 
