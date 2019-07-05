@@ -83,9 +83,9 @@ As we push forward to providing the best product and high Time-to-Value with the
 
 #### Run Time
 
+* [Getting Started with Run Time](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
 * [Setting Up for Jenkins Build](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo/wiki/Setting-up-for-Jenkins-Build)
 
-* [Getting Started with Runtime](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
 
 ## Releases
 The compiled release binaries can be found here: [Releases][Releases]
