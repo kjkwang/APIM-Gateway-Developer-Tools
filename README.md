@@ -58,6 +58,7 @@ As we push forward to providing the best product and high Time-to-Value with the
 |Telemetry| The Ephemeral Gateway is not connected to any telemetry services. Gateway customers who are or are planning to enroll in a Portfolio License Agreement (PLA) with CA Technologies can learn more about telemetry requirements [here](https://docops.ca.com/ca-api-gateway/9-4/en/install-configure-upgrade/product-licensing-and-telemetry).| 
 | Tested Gateway Entities |The following Gateway entities have been tested for the Gateway Developer Plugin: <ul><li>Cassandra Connections</li><li>Encapsulated Assertions</li><li>Identity Providers</li><li>JDBC Connections</li><li>JMS Destinations</li><li>Listen Ports</li><li>Policy Backed Services</li><li>Private Keys</li><li>Scheduled Tasks</li><li>Services</li><li>Static Properties</li><li>Stored Passwords</li><li>Trusted Certificates</li></ul>All other entities shall be tested in gradual phases, post-beta.| 
 |TIBCO JMS |TIBCO JMS is not supported on a Gateway solution built with the Gateway Developer plugin |
+|Upgrading and Rolling Back Gateway Versions| The process for upgrading or rolling back Gateway versions for the Ephemeral Gateway can be managed using the environment repository and Weaveflux but has not been tested in the beta release.|
 
 ## Installation 
 ### Prerequisites for Policy Developers
