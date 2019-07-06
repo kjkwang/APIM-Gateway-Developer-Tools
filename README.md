@@ -53,6 +53,7 @@ As we push forward to providing the best product and high Time-to-Value with the
 | --- | --- |
 | Build Monitoring | The Ephemeral Gateway does not support automatic alerting for failed jobs during the CI/CD workflow.|
 |Hazelcast| Hazelcast has not yet been tested to share states between multiple nodes.|
+|Health Probing| Health probes for readiness or liveness have not been implemented.|
 | Policy Manager and Kubernetes | Policy Manager access to a Kubernetes Gateway cluster is disabled.|
 |Spaces in Environment Variable Names | Environment variable names in a Kubernetes pod container do not accept spaces in names - this may cause issues for any Gateway environmental values with spaces exported to a pod container in Kubernetes (i.e., the pod container will not start).|
 | Special Charcters in Context Variables | The export plugin exports special characters in environment values with a backslash in order to escape the character. WeaveWorks' Flux returns an error when attempting to parse backslashes (" \ ") in the values.
