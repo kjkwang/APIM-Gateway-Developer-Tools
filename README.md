@@ -102,7 +102,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 **Links will redirect to the latest released versions.**
 
 - [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
-- [ephemeral-gateway-skeleton-repo].(https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)
+- [ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)
 - [gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)
 - [gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)
 - [gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)
