@@ -47,7 +47,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 
 ## Reference Implementations
 A brief description about various repos for reference implmentation is described here 
-[Respositories for Beta Release] (https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations)
+[Respositories for Beta Release](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations)
 We highly recommened you to go through this link to get used to various terms and repos used in this Beta release.
 
 ## Documentation
