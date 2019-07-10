@@ -85,14 +85,16 @@ The compiled release binaries can be found here: [Releases][Releases]
 
 ## Reference Implementations
 **Links will redirect to the latest released versions.**
+| Repository | Description|
+| --- | --- |
+| [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) |Reads configuration files, converts them to the Gateway Restman bundle format and builds the GW7 package.|
+|[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Exports current configurations from an existing Gateway, converts them into the plugin format, and stores it in the local directory structure, allowing for pushing to a VCS system.|
+|[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)|Imports and installs generated solutions to an existing running Gateway. Used primarily for transitioning Gateways from an appliance to a container form factor.|
+|[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.|
+|[gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)|asd|
+|[template-policies](https://github.com/CAAPIM/template-policies)|asdf|
+|[environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|asdf
 
-- [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo)
-- [ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)
-- [gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)
-- [gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)
-- [gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)
-- [template-policies](https://github.com/CAAPIM/template-policies)
-- [environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
