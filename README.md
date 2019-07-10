@@ -1,7 +1,6 @@
 # Welcome to APIM-Gateway-Developer-Tools
 #### Table of Contents
 * [About the Beta Release](#about-the-beta-release)
-* [Gateway Developer Tools Framework](#gateway-developer-tools-framework)
 * [Features](#features)
 * [Known Limitations](#known-limitations)
 * [Releases](#releases)
@@ -10,8 +9,8 @@
 * [Communication](#communication)
 * [How You Can Contribute](#how-you-can-contribute)
 * [License](#licenses)
-This GitHub repository serves as a launchpad and sitemap for the CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow for your Container Gateway solution development life cycle in ephemeral mode.  
 
+This GitHub repository serves as a launchpad and sitemap for the CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow for your Container Gateway solution development life cycle in ephemeral mode.  
 There are two parts to the CI/CD workflow: design time and run time. 
 
 #### Design Time :
@@ -40,17 +39,6 @@ For a high-level overview of the CI/CD workflow and its core components, we high
 
 If you want to learn more about the benefits or an overview of the Ephemeral Gateway, check out our DocOps [documentation](https://docops.ca.com/ca-api-gateway/9-4/en/apis-and-toolkits/gateway-developer-plugin?src=contextnavpagetreemode).
 
-## Gateway Developer Tools Framework
-Gateway Developer Tools consist of these frameworks:
-
-| Tool | Function |
-| --- | --- |
-| [gateway-developer-plugin](https://github.com/CAAPIM/gateway-developer-plugin) |Reads configuration files, converts them to the Gateway Restman bundle format and builds the GW7 package.|
-|[gateway-export-plugin](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/gateway-export-plugin) |Exports current configurations from an existing Gateway, converts them into the plugin format, and stores it in the local directory structure, allowing for pushing to a VCS system.|
-|[gateway-import-plugin](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/gateway-import-plugin)|Imports and installs generated solutions to an existing running Gateway. Used primarily for transitioning Gateways from an appliance to a container form factor.|
-|[environment-creator application](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/environment-creator-application)| Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.|
-
-Before diving into the individual developer tools, check out the [general Wiki page](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki) to learn the basic setup for your Ephemeral Gateway, and a reference architecture. 
 ## Known Limitations
 See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations) in the Wiki.
 
@@ -62,6 +50,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 
 | Repository | Description|
 | --- | --- |
+| [gateway-developer-plugin](https://github.com/CAAPIM/gateway-developer-plugin) |Reads configuration files, converts them to the Gateway Restman bundle format and builds the GW7 package.|
 | [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) | Provides the basic reference file structure and implementation for you to create your own Container Gateway solution repository in GitHub. This repository is suitable for anyone wanting to 1) Apply GitOps principles to their Gateway policy development and 2) Use the Gateway developer plugin for import/exporting of Gateway artifacts. At the end, you should be able to understand how a Version Control System (i.e., GitHub), the CA Gateway Developer plugin, and Docker can work together to support your Container Gateway design time activities. |
 |[Sample Gateway Project for export](https://github.com/J-Lou/getting-started-developer-plugin)| Used in conjunction with the Gateway Developer Skeleton repository, this repository contains the files and folders of an existing and running Gateway for exporting with the Gateway Developer plugin.|
 |[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)| A step up from the single-module skeleton module, you can use this repository as a starting point for your gateway projects with a multi-module structure. Each module is typically represented by one unique folder in the Gateway file structure and bundle dependencies may be added.|
