@@ -5,7 +5,7 @@
 * [Known Limitations](#known-limitations)
 * [Releases](#releases)
 * [Reference Implementations](#reference-implementations)
-* [Documentation](#documentation)
+* [Step By Step Installation Guide](#installation-guide)
 * [Communication](#communication)
 * [How You Can Contribute](#how-you-can-contribute)
 * [License](#licenses)
@@ -51,8 +51,8 @@ A brief description about various repos for reference implmentation is described
 We highly recommened you to go through this link to get used to various terms and repos used in this Beta release.
 
 
-### Installation Guides on the Wiki
-To Test Beta release Follow this step by step insllation guide and set up various Design Time and Run Time components.
+### Installation Guide
+To Test Beta release follow this step by step installation guide and set up various Design Time and Run Time components
 [Step By Step Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-installation-Guide)
 
 ## Communication
