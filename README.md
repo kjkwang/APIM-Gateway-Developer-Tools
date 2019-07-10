@@ -45,10 +45,38 @@ Gateway Developer Tools consist of these frameworks:
 |[gateway-import-plugin](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/gateway-import-plugin)|Imports and installs generated solutions to an existing running Gateway. Used primarily for transitioning Gateways from an appliance to a container form factor.|
 |[environment-creator application](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/environment-creator-application)| Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.|
 
-
 Before diving into the individual developer tools, check out the [general Wiki page](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki) to learn the basic setup for your Ephemeral Gateway, and a reference architecture. 
 ## Known Limitations
 See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations) in the Wiki.
+
+## Releases
+The compiled release binaries can be found here: [Releases][Releases]
+
+## Reference Implementations
+**Links will redirect to the latest released versions.**
+
+| Repository | Description|
+| --- | --- |
+| [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) | Provides the basic reference file structure and implementation for you to create your own Container Gateway solution repository in GitHub. This repository is suitable for anyone wanting to 1) Apply GitOps principles to their Gateway policy development and 2) Use the Gateway developer plugin for import/exporting of Gateway artifacts. At the end, you should be able to understand how a Version Control System (i.e., GitHub), the CA Gateway Developer plugin, and Docker can work together to support your Container Gateway design time activities. |
+|[Sample Gateway Project for export](https://github.com/J-Lou/getting-started-developer-plugin)| Used in conjunction with the Gateway Developer Skeleton repository, this repository contains the files and folders of an existing and running Gateway for exporting with the Gateway Developer plugin.|
+|[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)| A step up from the single-module skeleton module, you can use this repository as a starting point for your gateway projects with a multi-module structure. Each module is typically represented by one unique folder in the Gateway file structure and bundle dependencies may be added.|
+|[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Clone this repository to experiment with more advanced use cases such as integrating the developer plugin with the runtime environment. This repository is a superset of the single-module repository, containing required files and configurations for connectivity to Jenkins.|
+|[example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|This repository is dedicated to environment configurations and is set up to demonstrate Weave Flux actions. It contains two sample developer and testing environments.
+|[gateway-helm-charts](https://github.com/CAAPIM/gateway-helm-charts)|Contains the file structure and prequisites for a successful installation of Gateway Helm Charts to deploy CI and run time services such as Cert Manager, Jenkins, Nexus, Elastic Stack, Grafana and InfluxDB|
+|[gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)|Contains an example file structure and configuration to send service metrics data from Container Gateway to InfluxDB and Grafana.|
+|[template-policies](https://github.com/CAAPIM/template-policies)|Contains sample Gateway policies and services that were built with the Ephemeral Gateway in mind. Content Pending.|
+|[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Contains all the necessary prerequisites and file structure for creating a 'Tic Tac Toe' game using the pre-beta release of the Gateway Developer plugin.|
+
+
+## Communication
+- *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
+- *Find a bug?* Open an [issue][issues] with the steps to reproduce it.
+- *Want to request a feature or have an idea?* Open an [issue][issues] to tell us.
+
+## How You Can Contribute
+Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
+
+## Documentation
 
 ## Installation 
 ### Prerequisites for Policy Developers
@@ -79,35 +107,6 @@ See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/w
 * [Getting Started with Run Time](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
 * [Setting Up for Jenkins Build](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo/wiki/Setting-up-for-Jenkins-Build)
 
-
-## Releases
-The compiled release binaries can be found here: [Releases][Releases]
-
-## Reference Implementations
-**Links will redirect to the latest released versions.**
-
-| Repository | Description|
-| --- | --- |
-| [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) | Provides the basic reference file structure and implementation for you to create your own Container Gateway solution repository in GitHub. This repository is suitable for anyone wanting to 1) Apply GitOps principles to their Gateway policy development and 2) Use the Gateway developer plugin for import/exporting of Gateway artifacts. At the end, you should be able to understand how a Version Control System (i.e., GitHub), the CA Gateway Developer plugin, and Docker can work together to support your Container Gateway design time activities. |
-|[Sample Gateway Project for export](https://github.com/J-Lou/getting-started-developer-plugin)| Used in conjunction with the Gateway Developer Skeleton repository, this repository contains the files and folders of an existing and running Gateway for exporting with the Gateway Developer plugin.|
-|[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)| A step up from the single-module skeleton module, you can use this repository as a starting point for your gateway projects with a multi-module structure. Each module is typically represented by one unique folder in the Gateway file structure and bundle dependencies may be added.|
-|[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Clone this repository to experiment with more advanced use cases such as integrating the developer plugin with the runtime environment. This repository is a superset of the single-module repository, containing required files and configurations for connectivity to Jenkins.|
-|[example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|This repository is dedicated to environment configurations and is set up to demonstrate Weave Flux actions. It contains two sample developer and testing environments.
-|[gateway-helm-charts](https://github.com/CAAPIM/gateway-helm-charts)|Contains the file structure and prequisites for a successful installation of Gateway Helm Charts to deploy CI and run time services such as Cert Manager, Jenkins, Nexus, Elastic Stack, Grafana and InfluxDB|
-|[gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)|Contains an example file structure and configuration to send service metrics data from Container Gateway to InfluxDB and Grafana.|
-|[template-policies](https://github.com/CAAPIM/template-policies)|Contains sample Gateway policies and services that were built with the Ephemeral Gateway in mind. Content Pending.|
-|[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Contains all the necessary prerequisites and file structure for creating a 'Tic Tac Toe' game using the pre-beta release of the Gateway Developer plugin.|
-
-
-## Communication
-- *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
-- *Find a bug?* Open an [issue][issues] with the steps to reproduce it.
-- *Want to request a feature or have an idea?* Open an [issue][issues] to tell us.
-
-## How You Can Contribute
-Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
-
-## Documentation
 For more documentation on the CA API Gateway, visit our [DocOps](https://docops.ca.com/gateway) site. 
 
 ## License
