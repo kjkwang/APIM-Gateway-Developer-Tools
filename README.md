@@ -52,7 +52,7 @@ We highly recommened you to go through this link to get used to various terms an
 
 
 ### Installation Guides on the Wiki
-Follow this step by step insllation guide to set up Design Time and Run Time components and test this Beta release 
+To Test Beta release Follow this step by step insllation guide and set up various Design Time and Run Time components.
 [Step By Step Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-installation-Guide)
 
 ## Communication
