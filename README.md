@@ -1,8 +1,4 @@
 # Welcome to APIM-Gateway-Developer-Tools
-This GitHub repository serves as a launchpad and sitemap for the CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow for your Container Gateway solution development life cycle in ephemeral mode.  
-
-There are two parts to the CI/CD workflow: design time and run time. Design time refers to activities pertaining to the design or development activities of Gateway policy language while run time refers to the activities pertaining to delivery, integration, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it.
-
 #### Table of Contents
 * [About the Beta Release](#about-the-beta-release)
 * [Gateway Developer Tools Framework](#gateway-developer-tools-framework)
@@ -14,6 +10,9 @@ There are two parts to the CI/CD workflow: design time and run time. Design time
 * [Communication](#communication)
 * [How You Can Contribute](#how-you-can-contribute)
 * [License](#licenses)
+This GitHub repository serves as a launchpad and sitemap for the CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow for your Container Gateway solution development life cycle in ephemeral mode.  
+
+There are two parts to the CI/CD workflow: design time and run time. Design time refers to activities pertaining to the design or development activities of Gateway policy language while run time refers to the activities pertaining to delivery, integration, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it.
 
 ## About the Beta Release
 The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your valuable feedback! 
