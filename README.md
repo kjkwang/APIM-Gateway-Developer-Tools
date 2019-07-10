@@ -93,8 +93,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 |[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)| A step up from the single-module skeleton module, you can use this repository as a starting point for your gateway projects with a multi-module structure. Each module is typically represented by one unique folder in the Gateway file structure and bundle dependencies may be added.|
 |[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Clone this repository to experiment with more advanced use cases such as integrating the developer plugin with the runtime environment. This repository is a superset of the single-module repository, containing required files and configurations for connectivity to Jenkins.|
 |[example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|This repository is dedicated to environment configurations and is set up to demonstrate Weave Flux actions. It contains two sample developer and testing environments.
-|[gateway-helm-charts](https://github.com/CAAPIM/gateway-helm-charts)|This is |
-
+|[gateway-helm-charts](https://github.com/CAAPIM/gateway-helm-charts)|Contains the file structure and prequisites for a successful installation of Gateway Helm Charts to deploy CI and run time services such as Cert Manager, Jenkins, Nexus, Elastic Stack, Grafana and InfluxDB|
 |[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.|
 |[gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)|asd|
 |[template-policies](https://github.com/CAAPIM/template-policies)|asdf|
