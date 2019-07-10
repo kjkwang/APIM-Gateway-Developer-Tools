@@ -1,4 +1,4 @@
-# Getting Started with APIM-Gateway-Developer-Tools
+# Welcome to APIM-Gateway-Developer-Tools
 This GitHub repository contains the required CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow that optimizes both the design and run times of the Container Gateway life cycle in ephemeral mode. 
 
 Design time refers to activities pertaining to the design or development activities of Gateway policy language while run time refers to the activities pertaining to delivery, integration, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it.
@@ -89,8 +89,8 @@ The compiled release binaries can be found here: [Releases][Releases]
 
 | Repository | Description|
 | --- | --- |
-| [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) |Reads configuration files, converts them to the Gateway Restman bundle format and builds the GW7 package.|
-|[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Exports current configurations from an existing Gateway, converts them into the plugin format, and stores it in the local directory structure, allowing for pushing to a VCS system.|
+| [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) |Provides the basic reference file structure and implementation for you to create your own Container Gateway solution repository in GitHub. This repository is suitable for anyone wanting to 1) Apply GitOps principles to their Gateway policy development and 2) Use the Gateway developer plugin for import/exporting of Gateway artifacts. At the end, you should be able to understand a Version Control System (i.e., GitHub), the CA Gateway Developer plugin, and Docker can work together to support your Container Gateway design time activities. |
+|[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Similar|
 |[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)|Imports and installs generated solutions to an existing running Gateway. Used primarily for transitioning Gateways from an appliance to a container form factor.|
 |[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.|
 |[gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)|asd|
