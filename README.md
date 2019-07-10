@@ -67,7 +67,6 @@ See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/w
 ### Installation Guides on the Wiki
 
 #### Design Time
-* [Sample Gateway Project to Export to GitOps](https://github.com/J-Lou/getting-started-developer-plugin)
 
 * [Single Module Installation Guide](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/1.-Getting-Started-with-the-Gateway-Developer-Repository) 
 
@@ -90,6 +89,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 | Repository | Description|
 | --- | --- |
 | [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) | Provides the basic reference file structure and implementation for you to create your own Container Gateway solution repository in GitHub. This repository is suitable for anyone wanting to 1) Apply GitOps principles to their Gateway policy development and 2) Use the Gateway developer plugin for import/exporting of Gateway artifacts. At the end, you should be able to understand how a Version Control System (i.e., GitHub), the CA Gateway Developer plugin, and Docker can work together to support your Container Gateway design time activities. |
+|[Sample Gateway Project for export](https://github.com/J-Lou/getting-started-developer-plugin)| Used in conjunction with the Gateway Developer Skeleton repository, this repository contains the files and folders of an existing and running Gateway for exporting with the Gateway Developer plugin.|
 |[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)| A step up from the single-module skeleton module, you can use this repository as a starting point for your gateway projects with a multi-module structure. Each module is typically represented by one unique folder in the Gateway file structure and bundle dependencies may be added.|
 |[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Clone this repository to experiment with more advanced use cases such as integrating the developer plugin with the runtime environment. This repository is a superset of the single-module repository, containing required files and configurations for connectivity to Jenkins.|
 |[example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|This repository is dedicated to environment configurations and is set up to demonstrate Weave Flux actions. It contains two sample developer and testing environments.
