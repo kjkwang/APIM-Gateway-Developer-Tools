@@ -1,5 +1,5 @@
 # Welcome to APIM-Gateway-Developer-Tools
-This GitHub repository contains the required CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow that optimizes both the design and run times of the Container Gateway life cycle in ephemeral mode. 
+This GitHub repository serves as a launchpad and a sitemap for required CA API Gateway developer tools and CI/CD reference implementations for your organization to implement a CI/CD workflow for your Container Gateway solution development life cycle in ephemeral mode. Note there are two parts to CI/CD workflow: design time and run time. 
 
 Design time refers to activities pertaining to the design or development activities of Gateway policy language while run time refers to the activities pertaining to delivery, integration, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it.
 
@@ -94,10 +94,9 @@ The compiled release binaries can be found here: [Releases][Releases]
 |[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Clone this repository to experiment with more advanced use cases such as integrating the developer plugin with the runtime environment. This repository is a superset of the single-module repository, containing required files and configurations for connectivity to Jenkins.|
 |[example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|This repository is dedicated to environment configurations and is set up to demonstrate Weave Flux actions. It contains two sample developer and testing environments.
 |[gateway-helm-charts](https://github.com/CAAPIM/gateway-helm-charts)|Contains the file structure and prequisites for a successful installation of Gateway Helm Charts to deploy CI and run time services such as Cert Manager, Jenkins, Nexus, Elastic Stack, Grafana and InfluxDB|
-|[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Contains all the necessary prerequisites and file structure for creating a 'Tic Tac Toe' game using the pre-beta release of the Gateway Developer plugin.|
 |[gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)|asd|
 |[template-policies](https://github.com/CAAPIM/template-policies)|asdf|
-|[environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|asdf
+|[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Contains all the necessary prerequisites and file structure for creating a 'Tic Tac Toe' game using the pre-beta release of the Gateway Developer plugin.|
 
 
 ## Communication
