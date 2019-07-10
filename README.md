@@ -46,20 +46,9 @@ See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/w
 The compiled release binaries can be found here: [Releases][Releases]
 
 ## Reference Implementations
-**Links will redirect to the latest released versions.**
-
-| Repository | Description|
-| --- | --- |
-| [gateway-developer-plugin](https://github.com/CAAPIM/gateway-developer-plugin) |Reads configuration files, converts them to the Gateway Restman bundle format and builds the GW7 package.|
-| [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) | Provides the basic reference file structure and implementation for you to create your own Container Gateway solution repository in GitHub. This repository is suitable for anyone wanting to 1) Apply GitOps principles to their Gateway policy development and 2) Use the Gateway developer plugin for import/exporting of Gateway artifacts. At the end, you should be able to understand how a Version Control System (i.e., GitHub), the CA Gateway Developer plugin, and Docker can work together to support your Container Gateway design time activities. |
-|[Sample Gateway Project for export](https://github.com/J-Lou/getting-started-developer-plugin)| Used in conjunction with the Gateway Developer Skeleton repository, this repository contains the files and folders of an existing and running Gateway for exporting with the Gateway Developer plugin.|
-|[gateway-developer-multimodule-skeleton-repo](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo)| A step up from the single-module skeleton module, you can use this repository as a starting point for your gateway projects with a multi-module structure. Each module is typically represented by one unique folder in the Gateway file structure and bundle dependencies may be added.|
-|[ephemeral-gateway-skeleton-repo](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo)|Clone this repository to experiment with more advanced use cases such as integrating the developer plugin with the runtime environment. This repository is a superset of the single-module repository, containing required files and configurations for connectivity to Jenkins.|
-|[example-environment-configuration-repo](https://github.com/CAAPIM/example-environment-configuration-repo)|This repository is dedicated to environment configurations and is set up to demonstrate Weave Flux actions. It contains two sample developer and testing environments.
-|[gateway-helm-charts](https://github.com/CAAPIM/gateway-helm-charts)|Contains the file structure and prequisites for a successful installation of Gateway Helm Charts to deploy CI and run time services such as Cert Manager, Jenkins, Nexus, Elastic Stack, Grafana and InfluxDB|
-|[gateway-metrics-grafana-example](https://github.com/CAAPIM/gateway-metrics-grafana-example)|Contains an example file structure and configuration to send service metrics data from Container Gateway to InfluxDB and Grafana.|
-|[template-policies](https://github.com/CAAPIM/template-policies)|Contains sample Gateway policies and services that were built with the Ephemeral Gateway in mind. Content Pending.|
-|[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Contains all the necessary prerequisites and file structure for creating a 'Tic Tac Toe' game using the pre-beta release of the Gateway Developer plugin.|
+A brief description about various repos for reference implmentation is described here 
+[Respositories for Beta Release] (https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations)
+We highly recommened you to go through this link to get used to various terms and repos used in this Beta release.
 
 ## Documentation
 
