@@ -45,6 +45,7 @@ Gateway Developer Tools consist of these frameworks:
 |[gateway-import-plugin](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/gateway-import-plugin)|Imports and installs generated solutions to an existing running Gateway. Used primarily for transitioning Gateways from an appliance to a container form factor.|
 |[environment-creator application](https://github.com/CAAPIM/gateway-developer-plugin/tree/master/environment-creator-application)| Part of the the GW7 package and used for deployment, this tool collects all environment properties that are relevant to the container and applies their values to the bundles. It is run before Container Gateway startup.|
 
+
 Before diving into the individual developer tools, check out the [general Wiki page](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki) to learn the basic setup for your Ephemeral Gateway, and a reference architecture. 
 ## Known Limitations
 See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations) in the Wiki.
@@ -85,6 +86,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 
 ## Reference Implementations
 **Links will redirect to the latest released versions.**
+
 | Repository | Description|
 | --- | --- |
 | [gateway-developer-skeleton-repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo) |Reads configuration files, converts them to the Gateway Restman bundle format and builds the GW7 package.|
