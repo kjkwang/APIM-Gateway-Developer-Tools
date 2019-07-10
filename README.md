@@ -61,15 +61,6 @@ The compiled release binaries can be found here: [Releases][Releases]
 |[template-policies](https://github.com/CAAPIM/template-policies)|Contains sample Gateway policies and services that were built with the Ephemeral Gateway in mind. Content Pending.|
 |[gateway-tic-tac-toe](https://github.com/CAAPIM/gateway-tic-tac-toe)| Contains all the necessary prerequisites and file structure for creating a 'Tic Tac Toe' game using the pre-beta release of the Gateway Developer plugin.|
 
-
-## Communication
-- *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
-- *Find a bug?* Open an [issue][issues] with the steps to reproduce it.
-- *Want to request a feature or have an idea?* Open an [issue][issues] to tell us.
-
-## How You Can Contribute
-Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
-
 ## Documentation
 
 ## Installation 
@@ -102,6 +93,14 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 * [Setting Up for Jenkins Build](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo/wiki/Setting-up-for-Jenkins-Build)
 
 For more documentation on the CA API Gateway, visit our [DocOps](https://docops.ca.com/gateway) site. 
+
+## Communication
+- *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
+- *Find a bug?* Open an [issue][issues] with the steps to reproduce it.
+- *Want to request a feature or have an idea?* Open an [issue][issues] to tell us.
+
+## How You Can Contribute
+Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][contributing].
 
 ## License
 Copyright (c) 2019 CA. All rights reserved.
