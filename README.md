@@ -50,24 +50,10 @@ A brief description about various repos for reference implmentation is described
 [Respositories for Beta Release](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations)
 We highly recommened you to go through this link to get used to various terms and repos used in this Beta release.
 
-## Documentation
 
 ### Installation Guides on the Wiki
-
-#### Design Time
-
-* [Single Module Installation Guide](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/1.-Getting-Started-with-the-Gateway-Developer-Repository) 
-
-* [Multi Module Installation Guide](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki/1.-Getting-Started-with-the-Multiple-Module-Gateway-Developer-Repository)
-
-* [OTK Bundle Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/3.-OTK-Bundle-Installation-Guide)
-
-#### Run Time
-
-* [Getting Started with Run Time](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/2.-Getting-Started-with-Runtime)
-* [Setting Up for Jenkins Build](https://github.com/CAAPIM/ephemeral-gateway-skeleton-repo/wiki/Setting-up-for-Jenkins-Build)
-
-For more documentation on the CA API Gateway, visit our [DocOps](https://docops.ca.com/gateway) site. 
+Follow this step by step insllation guide to set up Design Time and Run Time components and test this Beta release 
+[Step By Step Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-installation-Guide)
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
