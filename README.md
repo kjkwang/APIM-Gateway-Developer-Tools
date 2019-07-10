@@ -63,20 +63,6 @@ The compiled release binaries can be found here: [Releases][Releases]
 
 ## Documentation
 
-## Installation 
-### Prerequisites for Policy Developers
-1. Have Docker installed.
-2. Have an existing Gateway license
-3. A running Gateway which has a policy to export. As an example for this getting started guide. You can find it at [Getting Started Gateway](https://github.com/J-Lou/getting-started-developer-plugin). To boot up your running Getting Started Gateway, instructions are provided below.
-    1. Open up a terminal in the base directory of the `Getting Started Gateway`.
-    2. Place a license in `docker/`
-    3. Execute the following commands.
-    ```console
-    $ ./gradlew clean build
-    $ docker-compose up --force-recreate
-    ```
-    **Note**: The IP address of this Gateway is https://localhost:844
-
 ### Installation Guides on the Wiki
 
 #### Design Time
@@ -107,7 +93,6 @@ Copyright (c) 2019 CA. All rights reserved.
 
 This software may be modified and distributed under the terms
 of the MIT license. See the [LICENSE][license-link] file for details.
-
 
 [StackOverflow]: http://stackoverflow.com/questions/tagged/cagateway
 [issues]: https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/issues
