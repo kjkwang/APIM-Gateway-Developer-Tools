@@ -53,7 +53,7 @@ We highly recommened you to go through this link to get used to various terms an
 
 
 ### Step By Step Installation Guide
-To test the beta release of the Ephemeral Gateway, follow this [Step By Step Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-installation-Guide)
+To test the beta release of the Ephemeral Gateway, follow this [Step By Step Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-installation-Guide). From there, it'll link you to other guides to set up each component from design time (e.g, the Gateway developer Git repository) to run time (e.g, Helm Charts) in sequence. 
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
