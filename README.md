@@ -14,10 +14,10 @@ This GitHub repository serves as a launchpad and sitemap for the CA API Gateway 
 
 There are two main parts of the CI/CD workflow: local development (i.e., design time) and the actual CI/CD pipeline (i.e., run time) - it's important to distinguish the two as you'll be implementing the workflow in stages so that you can understand how the components work together. 
 
-## Design Time: Road to CI/CD with GitOps-Oriented Local Development
+### Design Time: Road to CI/CD with GitOps-Oriented Local Development
 Design Time refers to activities pertaining to the design or development activities of Gateway policy language.
 
-## Run Time: CI/CD Pipeline with Log Analytics and Performance Metrics
+### Run Time: CI/CD Pipeline with Log Analytics and Performance Metrics
 Run Time refers to the activities pertaining to integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and performance metrics are also included. 
 
 ## About the Beta Release
