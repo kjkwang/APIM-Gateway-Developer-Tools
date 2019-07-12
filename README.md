@@ -5,7 +5,7 @@
 * [Known Limitations](#known-limitations)
 * [Releases](#releases)
 * [Reference Implementations](#reference-implementations)
-* [Step By Step Installation Guide](#installation-guide)
+* [Step By Step Installation Guide](#step-by-step-installation-guide)
 * [Communication](#communication)
 * [How You Can Contribute](#how-you-can-contribute)
 * [License](#licenses)
@@ -50,7 +50,7 @@ The compiled release binaries can be found here: [Releases][Releases]
 A brief description of the various GitHub repositories in CAAPIM/APIM-Gateway-Developer-Tools is described in the 
 [Beta Release Respositories and Reference Implementations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations) wiki page. We highly recommened you to go through this link to become familiar with the various terms and repos used in this Beta release.
 
-### Step By Step Installation Guide
+## Step By Step Installation Guide
 To test the beta release of the Ephemeral Gateway, follow this [Step By Step Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-installation-Guide). From there, it'll link you to other guides to set up each component from design time (e.g, the Gateway developer Git repository) to run time (e.g, Helm Charts) in sequence. 
 
 ## Communication
