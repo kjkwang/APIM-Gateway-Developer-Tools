@@ -20,7 +20,7 @@ Design Time refers to activities pertaining to the design or development activit
 Run Time refers to the activities pertaining to integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and performance metrics are also included. Learn more in the [wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki#run-time-cicd-pipeline-in-action-with-log-analytics-and-performance-metrics). 
 
 ## About the Beta Release
-The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your valuable feedback! 
+The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your [valuable feedback](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/issues)! 
 
 ### Features
 For this first beta release, we've focused on the following features:
