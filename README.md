@@ -3,7 +3,6 @@
 * [About the Beta Release](#about-the-beta-release)
 * [Features](#features)
 * [Known Limitations](#known-limitations)
-* [Releases](#releases)
 * [Reference Implementations](#reference-implementations)
 * [Step By Step Installation Guide](#step-by-step-installation-guide)
 * [Communication](#communication)
@@ -42,9 +41,6 @@ If you want to learn more about the benefits or an overview of the Ephemeral Gat
 
 ## Known Limitations
 See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations) in the Wiki.
-
-## Releases
-The compiled release binaries can be found here: [Releases][Releases]
 
 ## Reference Implementations
 A brief description of the various GitHub repositories in CAAPIM/APIM-Gateway-Developer-Tools is described in the 
