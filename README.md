@@ -16,10 +16,11 @@ There are two main parts of the CI/CD workflow: local Gateway solution developme
 
 ### Design Time: Local Gateway Solution Development
 Design Time refers to activities pertaining to the design or development activities of Gateway policy language.
+add link to main wiki 
 
 ### Run Time: CI/CD Pipeline with Log Analytics and Performance Metrics
 Run Time refers to the activities pertaining to integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and performance metrics are also included. 
-
+add link to main wiki
 ## About the Beta Release
 The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your valuable feedback! 
 
