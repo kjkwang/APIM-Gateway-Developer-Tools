@@ -46,8 +46,8 @@ See [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/w
 A brief description of the various GitHub repositories in CAAPIM/APIM-Gateway-Developer-Tools is described in the 
 [Beta Release Respositories and Reference Implementations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations) wiki page. We highly recommened you to go through this link to become familiar with the various terms and repos used in this Beta release.
 
-## Step By Step Installation Guide
-To test the beta release of the Ephemeral Gateway, follow this [Step By Step Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-installation-Guide). From there, it'll link you to other guides to set up each component from design time (e.g, the Gateway developer Git repository) to run time (e.g, Helm Charts) in sequence. 
+## Step By Step Setup Guide
+To test the beta release of the Ephemeral Gateway, follow this [Step By Step Setup Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Step-by-Step-Setup-Guide). From there, it'll link you to other guides to set up each component from design time (e.g, the Gateway developer Git repository) to run time (e.g, Helm Charts) in sequence. 
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
