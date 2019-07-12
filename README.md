@@ -10,17 +10,16 @@
 * [How You Can Contribute](#how-you-can-contribute)
 * [License](#licenses)
 
-This GitHub repository serves as a launchpad and sitemap for the CA API Gateway developer tools and reference implementations for your organization to implement a CI/CD workflow for your Container Gateway solution development life cycle in ephemeral mode.
+This GitHub repository serves as a sitemap for the CA API Gateway developer tools and reference implementations for your organization to implement a CI/CD workflow for your Container Gateway solution development life cycle in ephemeral mode.
 
 There are two main parts of the CI/CD workflow: local Gateway solution development (i.e., design time) and the actual CI/CD pipeline (i.e., run time) - it's important to distinguish the two as you'll be implementing the workflow in stages so that you can understand how the components work together. 
 
 ### Design Time: Local Gateway Solution Development
-Design Time refers to activities pertaining to the design or development activities of Gateway policy language.
-add link to main wiki 
+Design Time refers to activities pertaining to the design or development activities of Gateway policy language. Learn More.
 
 ### Run Time: CI/CD Pipeline with Log Analytics and Performance Metrics
-Run Time refers to the activities pertaining to integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and performance metrics are also included. 
-add link to main wiki
+Run Time refers to the activities pertaining to integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and performance metrics are also included. Learn More. 
+
 ## About the Beta Release
 The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your valuable feedback! 
 
