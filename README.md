@@ -14,7 +14,7 @@ This GitHub repository serves as a launchpad and sitemap for the CA API Gateway 
 There are two main parts of the CI/CD workflow: local Gateway solution development (i.e., design time) and the actual CI/CD pipeline (i.e., run time) - it's important to distinguish the two as you'll be implementing the workflow in stages so that you can understand how the components work together. 
 
 ### Design Time: Local Gateway Solution Development
-Design Time refers to activities pertaining to the design or development activities of Gateway policy language. Learn more in the [wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki#design-time-road-to-cicd-with-gitops-oriented-local-development).
+Design Time refers to activities pertaining to the design or development activities of Gateway policy language or services. Learn more in the [wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki#design-time-road-to-cicd-with-gitops-oriented-local-development).
 
 ### Run Time: CI/CD Pipeline with Log Analytics and Performance Metrics
 Run Time refers to the activities pertaining to integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and performance metrics are also included. Learn more in the [wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki#run-time-cicd-pipeline-in-action-with-log-analytics-and-performance-metrics). 
