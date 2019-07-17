@@ -16,8 +16,8 @@ There are two main parts of the CI/CD workflow: local Gateway solution developme
 ### Design Time: Local Gateway Solution Development
 Design Time refers to activities pertaining to the design or development activities of Gateway policy language or services. With the Gateway Developer plugin, you build a GitOps-oriented Gateaway solution development life cycle for the Container Gateway. Design time is a precursor to run time in an Ephemeral Gateway implementation, but can also operate indepedently for non-Ephemeral Gateway implementations. Learn more in the [wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki#design-time-road-to-cicd-with-gitops-oriented-local-development).
 
-### Run Time: CI/CD Pipeline with Log Analytics and Performance Metrics
-Run Time refers to the activities pertaining to continuous integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and performance metrics is also included. Learn more in the [wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki#run-time-cicd-pipeline-in-action-with-log-analytics-and-performance-metrics). 
+### Run Time: CI/CD Pipeline with Log Analytics and Service Metrics
+Run Time refers to the activities pertaining to continuous integration, delivery, and deployment activities of the Container Gateway life cycle – automation is used where the described tools allow it. The monitoring of logs and service metrics is also included. Learn more in the [wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki#run-time-cicd-pipeline-in-action-with-log-analytics-and-performance-metrics). 
 
 ## About the Beta Release
 The Ephemeral Gateway is a work in progress and the contents of this Git repository is intended as a preview for any organization wanting to explore the implementation of a CI/CD workflow for their API Gateway solution development life cyle. We encourage you to give it a try and provide our development and testing teams your [valuable feedback](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/issues)! 
