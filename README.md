@@ -72,6 +72,12 @@ To test the beta release of the Ephemeral Gateway, follow the steps in this [mas
   * [Introduction to Repository and Environment Configuration](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Introduction-to-Example-Environment-Configuration-Repo)
   * [Complete Installation Instructions for Environment Configuration Repo](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Install-Instructions)
   *  [ Additional Tool Info (i.e., Weave Flux, Sealed Secrets, Misc.)](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Additional-Tools-Information)
+  ### [Gateway Helm Charts Repo Wiki](https://github.com/CAAPIM/gateway-helm-charts/wiki)
+  * [Introduction to Helm Charts](https://github.com/CAAPIM/gateway-helm-charts/wiki/Introduction-to-Gateway-Helm-Charts)
+  * [Installation Instructions for Helm Charts](https://github.com/CAAPIM/gateway-helm-charts/wiki/Install-Instructions)
+  * [Creating Static IP Addresses](https://github.com/CAAPIM/gateway-helm-charts/wiki/Creating-Static-IP-Addresses)
+  * [Using a Private Ephemeral Gateway Skeleton Repo](https://github.com/CAAPIM/gateway-helm-charts/wiki/Using-a-Private-Ephemeral-Gateway-Skeleton-Repo)
+  * [
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
