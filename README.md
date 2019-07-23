@@ -51,8 +51,21 @@ To test the beta release of the Ephemeral Gateway, follow the steps in this [mas
 
 ## Wiki Sitemap
 ### [Main Wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki)
-[
-
+* Instruction Guides
+  * [Ephemeral Gateway Setup Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/ephemeral-gateway-setup-guide)
+  * [Getting Started with the Developer Plugin](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Getting-Started-with-the-Developer-Plugin)
+  * [Getting Started with Run Time](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Getting-Started-with-Runtime)
+  * [Demo Gateway Setup Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Demo-Gateway-Setup-Guide)
+  * [Tiller Installation for Windows Users](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Tiller-Installation-for-Windows-Users)
+  * [OTK Bundle Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/OTK-Bundle-Installation-Guide)
+* Reference
+  * [Ephemeral Gateway Reference Architecture](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Ephemeral-Gateway-Reference-Architecture)
+  * [Beta Release Repositories and Reference Implementations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations)
+  * [Prerequisites for Beta Testing](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Prerequisites-for-Beta-testing)
+  * [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations)
+  * [Comparing the GMU Tool and Developer Plugin](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations)
+  ### [Gateway Skeleton Repo Wiki]
+  * [Configure Gateway Skeleton Repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/Configure-Gateway-Skeleton-Repo)
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
