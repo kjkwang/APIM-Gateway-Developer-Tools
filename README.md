@@ -64,7 +64,7 @@ To test the beta release of the Ephemeral Gateway, follow the steps in this [mas
   * [Prerequisites for Beta Testing](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Prerequisites-for-Beta-testing)
   * [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations)
   * [Comparing the GMU Tool and Developer Plugin](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations)
-  ### [Gateway Skeleton Repo Wiki]
+  ### [Gateway Skeleton Repo Wiki] (https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki)
   * [Configure Gateway Skeleton Repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/Configure-Gateway-Skeleton-Repo)
 
 ## Communication
