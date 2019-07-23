@@ -66,6 +66,12 @@ To test the beta release of the Ephemeral Gateway, follow the steps in this [mas
   * [Comparing the GMU Tool and Developer Plugin](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations)
   ### [Gateway Skeleton Repo Wiki](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki)
   * [Configure Gateway Skeleton Repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/Configure-Gateway-Skeleton-Repo)
+  ### [Gateway Developer Multi-Module Skeleton Repo Wiki](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki)
+  * [Getting Started with the Multiple Module Gateway Developer Repository] (https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki/Getting-Started-with-the-Multiple-Module-Gateway-Developer-Repository)
+  ### [Example Environment Configuration Repo Wiki](https://github.com/CAAPIM/example-environment-configuration-repo/wiki)
+  * [Introduction to Repository and Environment Configuration](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Introduction-to-Example-Environment-Configuration-Repo)
+  * [Complete Installation Instructions for Environment Configuration Repo](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Install-Instructions)
+  *  [ Additional Tool Info (i.e., Weave Flux, Sealed Secrets, Misc.)](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Additional-Tools-Information)
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
