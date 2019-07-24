@@ -50,7 +50,7 @@ A brief description of the various GitHub repositories in CAAPIM/APIM-Gateway-De
 To test the beta release of the Ephemeral Gateway, follow the steps in this [master setup guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/ephemeral-gateway-setup-guide). From there, it'll link you to other guides to set up each component from design time (e.g, the Gateway developer Git repository) to run time (e.g, Helm Charts) in sequence. 
 
 ## Wiki Sitemap
-There's a wealth of instructional and reference information available across the multiple Gateway Developer Tools and Ephemeral Gateway repositories. See what's available from a single list in the Wiki sitemap.
+There's a wealth of instructional and reference information available across the multiple Gateway Developer Tools and Ephemeral Gateway repositories. See what's available from a single list in the [wiki sitemap](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Wiki-Sitemap).
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
