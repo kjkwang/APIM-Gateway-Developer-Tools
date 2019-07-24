@@ -50,33 +50,7 @@ A brief description of the various GitHub repositories in CAAPIM/APIM-Gateway-De
 To test the beta release of the Ephemeral Gateway, follow the steps in this [master setup guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/ephemeral-gateway-setup-guide). From there, it'll link you to other guides to set up each component from design time (e.g, the Gateway developer Git repository) to run time (e.g, Helm Charts) in sequence. 
 
 ## Wiki Sitemap
-### [Main Wiki](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki)
-* Instruction Guides
-  * [Ephemeral Gateway Setup Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/ephemeral-gateway-setup-guide)
-  * [Getting Started with the Developer Plugin](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Getting-Started-with-the-Developer-Plugin)
-  * [Getting Started with Run Time](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Getting-Started-with-Runtime)
-  * [Demo Gateway Setup Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Demo-Gateway-Setup-Guide)
-  * [Tiller Installation for Windows Users](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Tiller-Installation-for-Windows-Users)
-  * [OTK Bundle Installation Guide](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/OTK-Bundle-Installation-Guide)
-* Reference
-  * [Ephemeral Gateway Reference Architecture](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Ephemeral-Gateway-Reference-Architecture)
-  * [Beta Release Repositories and Reference Implementations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Beta-Release-Repositories-and-Reference-Implementations)
-  * [Prerequisites for Beta Testing](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Prerequisites-for-Beta-testing)
-  * [Known Limitations](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations)
-  * [Comparing the GMU Tool and Developer Plugin](https://github.com/CAAPIM/APIM-Gateway-Developer-Tools/wiki/Known-Limitations)
-### [Gateway Skeleton Repo Wiki](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki)
- * [Configure Gateway Skeleton Repo](https://github.com/CAAPIM/gateway-developer-skeleton-repo/wiki/Configure-Gateway-Skeleton-Repo)
-### [Gateway Developer Multi-Module Skeleton Repo Wiki](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki)
- * [Getting Started with the Multiple Module Gateway Developer Repository](https://github.com/CAAPIM/gateway-developer-multimodule-skeleton-repo/wiki/Getting-Started-with-the-Multiple-Module-Gateway-Developer-Repository)
-### [Example Environment Configuration Repo Wiki](https://github.com/CAAPIM/example-environment-configuration-repo/wiki)
- * [Introduction to Repository and Environment Configuration](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Introduction-to-Example-Environment-Configuration-Repo)
- * [Installation Instructions for Environment Configuration Repo](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Install-Instructions)
- *  [ Additional Tool Info (i.e., Weave Flux, Sealed Secrets, Misc.)](https://github.com/CAAPIM/example-environment-configuration-repo/wiki/Additional-Tools-Information)
-### [Gateway Helm Charts Repo Wiki](https://github.com/CAAPIM/gateway-helm-charts/wiki)
- * [Introduction to Helm Charts](https://github.com/CAAPIM/gateway-helm-charts/wiki/Introduction-to-Gateway-Helm-Charts)
- * [Installation Instructions for Helm Charts](https://github.com/CAAPIM/gateway-helm-charts/wiki/Install-Instructions)
- * [Creating Static IP Addresses](https://github.com/CAAPIM/gateway-helm-charts/wiki/Creating-Static-IP-Addresses)
- * [Using a Private Ephemeral Gateway Skeleton Repo](https://github.com/CAAPIM/gateway-helm-charts/wiki/Using-a-Private-Ephemeral-Gateway-Skeleton-Repo)
+There's a wealth of instructional and reference information available across the multiple Gateway Developer Tools and Ephemeral Gateway repositories. See what's available from a single list in the Wiki sitemap.
 
 ## Communication
 - *Have general questions or need help?* Use [Stack Overflow][StackOverflow]. (Tag 'cagateway')
